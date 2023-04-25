@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #2a2a72;
+}
+form input{
+    background-color: #4c2885;
+}
+.avatar{
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+}
+.repos{
+    text-decoration: none;
+    color: #fff;
+    background-color: #4c2885;
+    font-size: 0.7rem;
+    @apply py-1 px-2 mr-2 mb-2 inline-block rounded-xl;
+}
