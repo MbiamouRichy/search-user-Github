@@ -576,6 +576,10 @@ video {
   padding: 1rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -607,8 +611,8 @@ form input{
 .avatar{
   border-radius: 50%;
   border: 10px solid #2a2a72;
-  height: 5rem;
-  width: 5rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 @media (min-width: 768px) {
