@@ -556,8 +556,8 @@ video {
   justify-content: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-xl {
@@ -607,6 +607,15 @@ form input{
 .avatar{
   border-radius: 50%;
   border: 10px solid #2a2a72;
+  height: 5rem;
+  width: 5rem;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    height: 10rem;
+    width: 10rem;
+  }
 }
 
 .card {
